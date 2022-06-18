@@ -4,7 +4,6 @@ body * {
 }
 
 .ternBackground {
-    background-image: url(../images/tern-banner.png);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,6 +103,14 @@ body * {
     min-width: 100%;
     min-height: 100%;
     box-shadow: 8px 8px 8px 1px  rgba(0, 0, 0, .2);
+}
+
+.survey-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    padding: 2.2rem;
 }
 
 .ideationContainer {
